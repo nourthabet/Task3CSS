@@ -8,11 +8,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #2b1b15;
   color: #ffffff;
-  line-height: 1
+  line-height: 1;
+  padding-top: 50px;
 }
 
 .topbar {
   background: linear-gradient(to right, #684638, #5a3625, #3b241c, #422b2b);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .navbar {
@@ -119,7 +124,7 @@ h3 {
   height: 45px;
   width: auto;
   margin-top: 30px;
-  margin-left: -25px; 
+  margin-left: -25px;
 }
 
 .footer {
