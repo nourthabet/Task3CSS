@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #2b1b15;
+  color: #ffffff;
+  line-height: 1
+}
+
+.topbar {
+  background: linear-gradient(to right, #684638, #5a3625, #3b241c, #422b2b);
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0;
+  padding: 14px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 20px
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px
+}
+
+.logo {
+  color: #b89f72;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  margin-left: 880px;
+}
+
+.band1,
+.band2,
+.band3,
+.band4 {
+  padding: 50px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08)
+}
+
+.center {
+  text-align: center;
+  max-width: 980px;
+  margin: auto
+}
+
+h3 {
+  color: #ffffff;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600
+}
+
+.band1 {
+  background: linear-gradient(to left, #1a0f0b);
+}
+
+.band2 {
+  background: linear-gradient(to right, #5a3625, #3b241c, #000000);
+}
+
+.band3 {
+  background: linear-gradient(to left, #2c2521, #3b241c);
+}
+
+.band4 {
+  background: linear-gradient(to left, #5a3625, #3b241c, #000000);
+}
+
+.payment-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin-left: 200px;
+  overflow: visible;
+}
+
+.payment-logos img {
+  height: 45px;
+  width: auto;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .25);
+  margin-left: -12px;
+  position: relative;
+}
+
+.img1 {
+  height: 45px;
+  width: auto;
+  margin-top: 0;
+}
+
+.img2 {
+  height: 45px;
+  width: auto;
+  margin-top: 15px;
+  margin-left: -25px;
+}
+
+.img3 {
+  height: 45px;
+  width: auto;
+  margin-top: 30px;
+  margin-left: -25px; 
+}
+
+.footer {
+  background: linear-gradient(to right, #3a2d29, #2e2626);
+  text-align: center;
+  padding: 16px;
+  color: #ffffff;
+}
